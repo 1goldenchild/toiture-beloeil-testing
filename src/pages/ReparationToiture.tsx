@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Helmet } from "react-helmet";
 import { Construction, Wrench, Shield, CheckCircle, Star } from "lucide-react";
@@ -132,27 +131,20 @@ const ReparationToiture = () => {
           phoneNumber="+1 450 600 2538"
         />
 
-        <section className="py-12 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-roofing-primary mb-8">Nos services de réparation de toiture à Beloeil</h2>
-          </div>
-        </section>
-
         <ServiceInfoSection
           title="Fuites de toit ? Nos couvreurs réparent rapidement pour votre tranquillité"
           paragraphs={[
             "Une goutte d'eau qui tombe du plafond est toujours un signe alarmant ! Nos experts en réparation de toiture à Beloeil maîtrisent parfaitement la détection et la réparation des fuites. Nous utilisons des équipements spécialisés pour localiser précisément l'origine de l'infiltration, même lorsqu'elle n'est pas évidente.",
             "Contrairement aux idées reçues, l'eau peut voyager loin de son point d'entrée avant de devenir visible. C'est pourquoi notre méthode de diagnostic approfondi est essentielle. Une fois la source identifiée, nous procédons à une réparation ciblée et efficace en remplaçant les matériaux endommagés, en réparant les solins défectueux ou en colmatant les fissures.",
-            `N'attendez pas que votre problème de fuite s'aggrave ! Pour une <a href="https://toiturebeloeil.ca//services-de-couvreur/inspection-de-toiture-beloeil/">inspection de toiture</a> complète et une réparation professionnelle, appelez Toiture Beloeil au +1 450 600 2538.`
+            `N'attendez pas que votre problème de fuite s'aggrave ! Pour une <a href="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/" class="text-roofing-primary hover:underline">inspection de toiture</a> complète et une réparation professionnelle, appelez Toiture Beloeil au +1 450 600 2538.`
           ]}
-          reverseLayout={true}
         />
 
         <ServiceInfoSection
           title="Bardeaux abîmés ou manquants ? Nos spécialistes sont là pour les remplacer !"
           paragraphs={[
             "Les bardeaux endommagés ou manquants sont plus qu'un simple problème esthétique. Ils exposent votre toit aux éléments et compromettent l'étanchéité de toute votre toiture. Chez Toiture Beloeil, nous offrons un service rapide et efficace pour remplacer ces bardeaux défectueux.",
-            "Nos couvreurs expérimentés évaluent d'abord l'étendue des dommages. Si seulement quelques bardeaux sont touchés, un remplacement partiel peut suffire. Cependant, si les dommages sont étendus, nous pourrions vous recommander un <a href='https://toiturebeloeil.ca//services-de-couvreur/remplacement-de-toiture-beloeil/'>remplacement de toiture</a> complet pour une solution plus durable.",
+            "Nos couvreurs expérimentés évaluent d'abord l'étendue des dommages. Si seulement quelques bardeaux sont touchés, un remplacement partiel peut suffire. Cependant, si les dommages sont étendus, nous pourrions vous recommander un <a href='https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-Beloeil/' class='text-roofing-primary hover:underline'>remplacement de toiture</a> complet pour une solution plus durable.",
             "Nous veillons toujours à assortir parfaitement les nouveaux bardeaux avec votre toiture existante. Notre équipe utilise des matériaux de première qualité et des techniques d'installation éprouvées pour garantir une réparation qui résistera à l'épreuve du temps. Contactez-nous pour une évaluation honnête de vos besoins en réparation de bardeaux !"
           ]}
         />
@@ -162,7 +154,7 @@ const ReparationToiture = () => {
           paragraphs={[
             "Les toitures métalliques sont réputées pour leur durabilité, mais elles ne sont pas à l'abri des dommages. Qu'il s'agisse de rayures profondes dans le revêtement protecteur, de joints défectueux ou de panneaux déformés par les intempéries, notre équipe possède l'expertise nécessaire pour restaurer l'intégrité de votre toit en métal.",
             "La réparation d'une toiture métallique demande des compétences spécifiques et une attention aux détails que nos artisans maîtrisent parfaitement. Nous utilisons des techniques de soudure avancées, des fixations spécialisées et des matériaux compatibles avec votre système de toiture existant.",
-            `Si vous remarquez des signes d'oxydation, des zones décolorées ou des bruits inhabituels lors de changements de température, contactez-nous rapidement. Un <a href="https://toiturebeloeil.ca//services-de-couvreur/entretien-de-toiture-beloeil/">entretien de toiture</a> régulier peut prévenir ces problèmes, mais lorsqu'ils surviennent, une réparation professionnelle est essentielle pour préserver votre investissement.`
+            `Si vous remarquez des signes d'oxydation, des zones décolorées ou des bruits inhabituels lors de changements de température, contactez-nous rapidement. Un <a href="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-Beloeil/" class="text-roofing-primary hover:underline">entretien de toiture</a> régulier peut prévenir ces problèmes, mais lorsqu'ils surviennent, une réparation professionnelle est essentielle pour préserver votre investissement.`
           ]}
           reverseLayout={true}
         />
@@ -172,7 +164,7 @@ const ReparationToiture = () => {
           paragraphs={[
             "La membrane élastomère est idéale pour les toits plats, mais elle peut subir des dommages avec le temps. Craquelures, déchirures ou décollements peuvent compromettre son étanchéité et mener à des problèmes d'infiltration sérieux. À Toiture Beloeil, nous sommes spécialistes dans la réparation de ces membranes techniques.",
             "Notre processus commence par une inspection minutieuse pour identifier tous les points faibles. Ensuite, nous préparons soigneusement la surface avant d'appliquer les correctifs nécessaires. Selon l'ampleur des dommages, nous pouvons réparer des sections spécifiques ou recommander une réfection complète si la membrane a atteint sa fin de vie utile.",
-            `La qualité de nos réparations de membrane élastomère est garantie grâce à l'utilisation de matériaux premium et d'une technique d'application rigoureuse. Pour une <a href="https://toiturebeloeil.ca//services-de-couvreur/installation-de-toiture-beloeil/">installation de toiture</a> neuve ou une réparation durable, faites confiance à notre expertise locale. Contactez-nous au +1 450 600 2538 pour une évaluation professionnelle !`
+            `La qualité de nos réparations de membrane élastomère est garantie grâce à l'utilisation de matériaux premium et d'une technique d'application rigoureuse. Pour une <a href="https://toiturebeloeil.ca/services-de-couvreur/installation-toiture-Beloeil/" class="text-roofing-primary hover:underline">installation de toiture</a> neuve ou une réparation durable, faites confiance à notre expertise locale. Contactez-nous au +1 450 600 2538 pour une évaluation professionnelle !`
           ]}
         />
 
