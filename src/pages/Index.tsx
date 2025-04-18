@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { HomeIcon, Wrench, Construction, Search, Hammer, Tool } from "lucide-react";
+import { HomeIcon, Wrench, Construction, Search, Hammer, Wrench as MaintenanceTool } from "lucide-react";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import ServiceSection from "@/components/ServiceSection";
@@ -67,7 +67,7 @@ const Index = () => {
               <ServiceCard 
                 title="Entretien de toiture"
                 description="Prolongez la durée de vie de votre toiture avec un entretien régulier."
-                icon={Tool}
+                icon={MaintenanceTool}
                 link="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-beloeil/"
                 imageUrl="/lovable-uploads/88153479-99cf-4c17-a3e1-6a2f286b9c51.png"
               />
