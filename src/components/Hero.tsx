@@ -8,6 +8,9 @@ const Hero = () => {
       className="hero-section min-h-[600px] w-full flex items-center justify-center text-white relative py-16"
       style={{
         backgroundImage: `url('/lovable-uploads/72ce6eda-b3b3-4f27-812c-7f9eb18c0f9c.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="container mx-auto z-10 px-4">
