@@ -7,7 +7,7 @@ const Hero = () => {
     <div 
       className="hero-section min-h-[600px] w-full flex items-center justify-center text-white relative py-16"
       style={{
-        backgroundImage: `url('/lovable-uploads/72ce6eda-b3b3-4f27-812c-7f9eb18c0f9c.png')`,
+        backgroundImage: `url('/lovable-uploads/2e396c8f-0426-4a75-b728-3418adda7b4e.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
