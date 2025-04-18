@@ -13,7 +13,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon: Icon, link, imageUrl }) => {
   return (
-    <a href={link} className="block">
+    <a href={link} className="block h-full">
       <Card className="service-card h-full overflow-hidden">
         <div className="relative h-48 overflow-hidden">
           <img 
