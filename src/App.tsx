@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -15,7 +16,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import ConditionsUtilisation from "./pages/ConditionsUtilisation";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite";
-import Header from "./components/Header";
+import Header from "./components/header/Header"; // Updated import path
 import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
@@ -51,3 +52,4 @@ const App = () => (
 );
 
 export default App;
+
