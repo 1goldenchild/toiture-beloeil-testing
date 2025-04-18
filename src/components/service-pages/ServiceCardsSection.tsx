@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { Roof, Wrench, Droplet, Search, HardHat } from 'lucide-react';
+import { Home, Wrench, Droplet, Search, HardHat } from 'lucide-react';
 import { Card, CardContent } from "@/components/ui/card";
 
 const ServiceCardsSection = () => {
   const services = [
     {
-      icon: <Roof size={48} className="text-roofing-accent" />,
+      icon: <Home size={48} className="text-roofing-accent" />,
       title: "Remplacement de toiture",
       description: "Remplacez votre vieille toiture par une installation neuve et durable pour protéger votre maison.",
       link: "https://toiturebeloeil.ca//services-de-couvreur/remplacement-toiture-Beloeil/"
