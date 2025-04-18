@@ -1,13 +1,51 @@
 
 import React from "react";
 import { Helmet } from "react-helmet";
+import { Shield, Search, CloudRain, FileCheck } from "lucide-react";
 import HeroSection from "../components/service-pages/HeroSection";
 import ServiceInfoSection from "../components/service-pages/ServiceInfoSection";
 import { CallToActionBanner } from "../components/service-pages/CallToActionBanner";
 import ServiceCardsSection from "../components/service-pages/ServiceCardsSection";
 import MapSection from "../components/service-pages/MapSection";
+import InspectionSection from "../components/service-pages/InspectionSection";
 
 const InspectionToiture = () => {
+  const preventiveInspection = {
+    id: "preventive-inspection",
+    title: "Inspection de toiture préventive – Gardez votre toit en parfait état toute l'année",
+    content: [
+      "Notre service d'inspection préventive est conçu pour les propriétaires conscients qu'un entretien régulier est le meilleur moyen d'éviter les problèmes coûteux. Cette inspection détaillée constitue votre première ligne de défense contre les dégradations progressives qui affectent toutes les toitures.",
+      "Lors d'une inspection préventive, nos techniciens évaluent minutieusement chaque composant de votre système de toiture: bardeaux ou autres matériaux de couverture, solins, évents, faîtières, noues, et bien plus encore. Nous vérifions également l'état de vos gouttières et descentes pluviales, éléments essentiels pour évacuer l'eau loin de votre maison.",
+      "Cette approche proactive permet d'identifier les signes précurseurs de problèmes potentiels: légères infiltrations, début de mousse ou de lichen, bardeaux qui commencent à se dégrader, etc. En les traitant rapidement, vous évitez qu'ils ne s'aggravent et préservez l'intégrité de votre toiture.",
+      `Le coût d'une inspection préventive régulière est minime comparé aux économies réalisées en évitant des <a href="https://toiturebeloeil.ca//services-de-couvreur/remplacement-de-toiture-beloeil/">remplacements prématurés</a> ou des réparations d'urgence. C'est un investissement judicieux pour tout propriétaire soucieux de préserver la valeur de son bien immobilier.`,
+      "Nous recommandons généralement ce type d'inspection au moins une fois par an, et plus fréquemment pour les toitures plus anciennes ou situées dans des zones particulièrement exposées aux intempéries."
+    ]
+  };
+
+  const postStormInspection = {
+    id: "post-storm-inspection",
+    title: "Inspection après intempéries – Évaluez les impacts des conditions climatiques sur votre toit",
+    content: [
+      "Après une tempête violente, une chute de grêle, des vents forts ou des accumulations importantes de neige, votre toiture peut avoir subi des dommages invisibles à l'œil nu. Notre service d'inspection post-intempéries vous apporte la tranquillité d'esprit en évaluant précisément l'impact de ces événements sur votre toit.",
+      "Nos experts savent exactement où chercher les signes de dommages spécifiques causés par différentes conditions météorologiques. La grêle peut créer des impacts sur vos bardeaux qui compromettent leur étanchéité sans être immédiatement visibles. Les vents violents peuvent soulever partiellement les matériaux de couverture, créant des zones vulnérables aux infiltrations. Les accumulations de neige peuvent exercer un poids excessif et déformer certaines structures.",
+      "Agir rapidement après un événement météorologique intense est crucial. Les petits dommages non traités s'aggravent rapidement, surtout si d'autres intempéries surviennent. De plus, la plupart des compagnies d'assurance exigent des déclarations de sinistre dans un délai limité après l'événement.",
+      "Notre rapport d'inspection détaillé peut également s'avérer précieux pour vos démarches auprès de votre assureur en cas de réclamation. Il constitue une documentation professionnelle des dommages constatés, facilitant ainsi le traitement de votre dossier.",
+      "Ne prenez pas de risques avec l'intégrité de votre maison – après chaque événement climatique important, contactez Toiture Beloeil pour une inspection rapide et complète de votre toiture."
+    ]
+  };
+
+  const insuranceInspection = {
+    id: "insurance-inspection",
+    title: "Inspection pour assurance – Vérifiez l'état de votre toit pour une couverture optimale",
+    content: [
+      "Vous achetez une nouvelle propriété? Vous renouvelez votre police d'assurance habitation? Vous souhaitez contester une réclamation refusée? Notre service d'inspection pour assurance vous fournit une évaluation professionnelle et impartiale de l'état de votre toiture.",
+      "Les compagnies d'assurance sont de plus en plus exigeantes concernant l'état des toitures qu'elles acceptent de couvrir. Une toiture vieillissante ou mal entretenue peut entraîner une augmentation significative de vos primes, voire un refus de couverture. Notre rapport d'inspection vous permet de négocier en position de force avec votre assureur en démontrant l'état réel de votre toit.",
+      "Pour les acheteurs potentiels d'une propriété, une inspection préalable de la toiture peut éviter de mauvaises surprises et fournir un argument de négociation si des travaux sont nécessaires. Pour les vendeurs, elle rassure les acheteurs et facilite la transaction.",
+      "Notre rapport d'inspection pour assurance est particulièrement détaillé. Il inclut une estimation de la durée de vie restante de votre toiture, identifie précisément les défauts existants et recommande les travaux nécessaires pour maintenir votre couverture en bon état.",
+      "Ce document professionnel, rédigé par des experts reconnus du secteur, vous donne toutes les cartes en main pour dialoguer efficacement avec votre compagnie d'assurance et obtenir les meilleures conditions possibles."
+    ]
+  };
+
   return (
     <>
       <Helmet>
@@ -100,26 +138,43 @@ Ne laissez pas un petit problème devenir un cauchemar coûteux! Une inspection 
         phoneNumber="+1 450 600 2538"
       />
 
+      <InspectionSection {...preventiveInspection} />
+      <InspectionSection {...postStormInspection} />
+      <InspectionSection {...insuranceInspection} />
+
       <ServiceInfoSection
-        title="Nos services d'inspection de toiture à Beloeil – Analyse approfondie pour un toit en toute sécurité"
+        title="Faites confiance à Toiture Beloeil pour une inspection de toiture fiable à Beloeil"
         paragraphs={[
-          "Chez Toiture Beloeil, nous offrons un service d'inspection complet et méticuleux pour évaluer précisément l'état de votre toiture. Notre approche systématique ne laisse rien au hasard et vous garantit un diagnostic fiable.",
-          "Nous commençons par une inspection visuelle extérieure complète de votre toit. Nos techniciens examinent attentivement chaque partie de votre couverture pour repérer les signes d'usure ou de dommages. Nous utilisons des équipements spécialisés pour accéder en toute sécurité à toutes les zones, même les plus difficiles d'accès.",
-          "L'inspection se poursuit ensuite dans vos combles, où nous recherchons des traces d'infiltration, des problèmes d'isolation ou de ventilation, et tout signe de faiblesse structurelle. Cette partie de l'évaluation est cruciale car elle permet de détecter des problèmes qui ne sont pas visibles de l'extérieur.",
-          `À l'issue de l'inspection, vous recevez un rapport détaillé qui documente l'état de votre toiture avec photos à l'appui. Ce document précieux identifie clairement les problèmes actuels, les risques potentiels et inclut nos recommandations pour les travaux d'<a href="https://toiturebeloeil.ca//services-de-couvreur/entretien-de-toiture-beloeil/">entretien</a> ou de réparation nécessaires.`,
-          "Notre objectif est de vous fournir toutes les informations dont vous avez besoin pour prendre des décisions éclairées concernant l'entretien de votre toiture. Avec Toiture Beloeil, vous bénéficiez d'une expertise locale et d'une évaluation honnête, sans surprises ni frais cachés."
+          "Choisir Toiture Beloeil pour l'inspection de votre toiture, c'est opter pour l'expertise locale et un service client exceptionnel. Voici pourquoi nos clients nous font confiance année après année:",
+          "Expertise locale: Notre équipe connaît parfaitement les particularités climatiques de Beloeil et les défis spécifiques qu'elles posent pour les toitures de la région. Cette connaissance approfondie nous permet d'identifier des problèmes que d'autres pourraient manquer.",
+          "Techniciens certifiés: Tous nos inspecteurs sont des professionnels expérimentés et certifiés, formés aux dernières techniques d'évaluation et dotés d'un œil expert pour repérer les moindres signes de problèmes.",
+          "Équipement de pointe: Nous utilisons des outils modernes, y compris des caméras thermiques qui peuvent détecter les infiltrations d'eau invisibles à l'œil nu, pour garantir une inspection complète et précise.",
+          "Honnêteté et transparence: Contrairement à certaines entreprises qui pourraient exagérer les problèmes pour vendre des réparations, nous vous fournissons toujours une évaluation honnête et des recommandations équilibrées. Nous ne suggérons des travaux que s'ils sont vraiment nécessaires.",
+          "Rapports détaillés: Vous recevez un rapport complet avec photos, explications claires et recommandations précises - un document précieux pour vos dossiers et pour planifier l'entretien futur de votre toiture.",
+          `Services complémentaires: Si des problèmes sont détectés, nous pouvons vous proposer tous les services nécessaires, de l'<a href="https://toiturebeloeil.ca//services-de-couvreur/installation-de-toiture-beloeil/">installation</a> à la réparation, avec la même qualité et le même professionnalisme.`,
+          "Avec Toiture Beloeil, vous bénéficiez d'une inspection approfondie qui vous procure une véritable tranquillité d'esprit concernant l'état de votre toiture."
         ]}
         imageUrl="/lovable-uploads/1cb3a89d-d1e4-487d-8561-2c373d1fd34b.png"
       />
 
-      <ServiceCardsSection />
-      
+      <ServiceInfoSection
+        title="Demandez une évaluation de l'état de votre toiture"
+        paragraphs={[
+          "Ne remettez pas à plus tard l'inspection de votre toiture! Les problèmes non détectés s'aggravent rapidement et peuvent engendrer des réparations bien plus coûteuses à terme. Chez Toiture Beloeil, nous sommes prêts à vous offrir une évaluation professionnelle qui vous procurera tranquillité d'esprit et informations précieuses sur l'état de votre toit.",
+          "Prendre rendez-vous est simple et rapide! Appelez-nous au +1 450 600 2538 pour planifier votre inspection à un moment qui vous convient. Notre équipe réactive s'adapte à votre emploi du temps et vous proposera un créneau dans les plus brefs délais.",
+          "Vous recevrez un devis clair avant toute intervention, sans frais cachés ni surprises. Après l'inspection, nos techniciens prendront le temps de vous expliquer leurs constatations et de répondre à toutes vos questions.",
+          "L'inspection de votre toiture est un petit investissement qui peut vous faire économiser des milliers de dollars en prévenant les dégâts majeurs. N'attendez pas qu'une fuite apparaisse au plafond - contactez les experts de Toiture Beloeil dès aujourd'hui et assurez la protection de votre maison!"
+        ]}
+      />
+
       <CallToActionBanner 
         text="Toiture endommagée ? Nos experts interviennent sans délai !"
         buttonText="Contactez-nous"
         phoneNumber="+1 450 600 2538"
       />
 
+      <ServiceCardsSection />
+      
       <MapSection />
     </>
   );
