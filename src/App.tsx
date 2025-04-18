@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import EntretienToiture from "./pages/EntretienToiture";
+import InspectionToiture from "./pages/InspectionToiture";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services-de-couvreur/entretien-toiture-Beloeil/" element={<EntretienToiture />} />
+          <Route path="/services-de-couvreur/inspection-toiture-Beloeil/" element={<InspectionToiture />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
