@@ -15,6 +15,8 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import ConditionsUtilisation from "./pages/ConditionsUtilisation";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
 
@@ -24,19 +26,25 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/services-de-couvreur/" element={<Services />} />
-          <Route path="/services-de-couvreur/entretien-toiture-Beloeil/" element={<EntretienToiture />} />
-          <Route path="/services-de-couvreur/inspection-toiture-Beloeil/" element={<InspectionToiture />} />
-          <Route path="/services-de-couvreur/installation-toiture-Beloeil/" element={<InstallationToiture />} />
-          <Route path="/services-de-couvreur/remplacement-toiture-Beloeil/" element={<RemplacementToiture />} />
-          <Route path="/services-de-couvreur/réparation-toiture-Beloeil/" element={<ReparationToiture />} />
-          <Route path="/contactez-nous/" element={<Contact />} />
-          <Route path="/conditions-utilisation/" element={<ConditionsUtilisation />} />
-          <Route path="/politique-de-confidentialité/" element={<PolitiqueConfidentialite />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <div className="min-h-screen flex flex-col">
+          <Header />
+          <div className="flex-grow pt-24">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/services-de-couvreur/" element={<Services />} />
+              <Route path="/services-de-couvreur/entretien-toiture-Beloeil/" element={<EntretienToiture />} />
+              <Route path="/services-de-couvreur/inspection-toiture-Beloeil/" element={<InspectionToiture />} />
+              <Route path="/services-de-couvreur/installation-toiture-Beloeil/" element={<InstallationToiture />} />
+              <Route path="/services-de-couvreur/remplacement-toiture-Beloeil/" element={<RemplacementToiture />} />
+              <Route path="/services-de-couvreur/réparation-toiture-Beloeil/" element={<ReparationToiture />} />
+              <Route path="/contactez-nous/" element={<Contact />} />
+              <Route path="/conditions-utilisation/" element={<ConditionsUtilisation />} />
+              <Route path="/politique-de-confidentialité/" element={<PolitiqueConfidentialite />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
+          <Footer />
+        </div>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
