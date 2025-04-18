@@ -5,14 +5,25 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <div 
-      className="hero-section min-h-[600px] w-full flex items-center justify-center text-white relative py-16"
+      className="min-h-[600px] w-full flex items-center justify-center text-white relative py-16"
       style={{
         backgroundImage: `url('/lovable-uploads/2e396c8f-0426-4a75-b728-3418adda7b4e.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        position: 'relative',
+        zIndex: 0,
       }}
     >
+      {/* Semi-transparent overlay */}
+      <div 
+        className="absolute inset-0"
+        style={{ 
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          zIndex: -1 
+        }}
+      ></div>
+      
       <div className="container mx-auto z-10 px-4">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-shadow-lg">
