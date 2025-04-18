@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +13,8 @@ import RemplacementToiture from "./pages/RemplacementToiture";
 import ReparationToiture from "./pages/ReparationToiture";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import ConditionsUtilisation from "./pages/ConditionsUtilisation";
+import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,8 @@ const App = () => (
           <Route path="/services-de-couvreur/remplacement-toiture-Beloeil/" element={<RemplacementToiture />} />
           <Route path="/services-de-couvreur/réparation-toiture-Beloeil/" element={<ReparationToiture />} />
           <Route path="/contactez-nous/" element={<Contact />} />
+          <Route path="/conditions-utilisation/" element={<ConditionsUtilisation />} />
+          <Route path="/politique-de-confidentialité/" element={<PolitiqueConfidentialite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
