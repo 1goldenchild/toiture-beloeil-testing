@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Helmet } from "react-helmet";
-import { Construction, Tools, Shield, CheckCircle, Star } from "lucide-react";
+import { Construction, Wrench, Shield, CheckCircle, Star } from "lucide-react";
 import HeroSection from "@/components/service-pages/HeroSection";
 import ServiceInfoSection from "@/components/service-pages/ServiceInfoSection";
 import { CallToActionBanner } from "@/components/service-pages/CallToActionBanner";
@@ -41,44 +41,6 @@ const InstallationToiture = () => {
     },
     "description": "Installation de toiture professionnelle à Beloeil, QC. Services d'experts pour tous types de toitures: bardeaux d'asphalte, métal et membrane élastomère."
   };
-
-  const services = [
-    {
-      title: "Remplacement de toiture",
-      description: "Remplacez votre vieille toiture par une neuve avec notre service professionnel et durable.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/remplacement-toiture-Beloeil/",
-      icon: Construction,
-      imageUrl: "/lovable-uploads/6422a796-7357-43f7-bc11-c6844664f8bf.png"
-    },
-    {
-      title: "Réparation de toiture",
-      description: "Solutions rapides et efficaces pour tous types de dommages sur votre toiture.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/réparation-toiture-Beloeil/",
-      icon: Tools,
-      imageUrl: "/lovable-uploads/9b0bb6a5-e524-4b35-a68e-fd963ee0deb9.png"
-    },
-    {
-      title: "Entretien de toiture",
-      description: "Maintenez votre toit en parfait état avec nos services d'entretien préventif.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/entretien-toiture-Beloeil/",
-      icon: Shield,
-      imageUrl: "/lovable-uploads/de3bd9b2-758a-4e99-855e-e5b68ab717b7.png"
-    },
-    {
-      title: "Inspection de toiture",
-      description: "Évaluation complète de l'état de votre toiture par nos experts qualifiés.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/inspection-toiture-Beloeil/",
-      icon: CheckCircle,
-      imageUrl: "/lovable-uploads/ff75c5b5-0f09-4a6f-b3eb-4cfab341c6ac.png"
-    },
-    {
-      title: "Installation de toiture",
-      description: "Installation professionnelle de toiture neuve avec des matériaux de qualité supérieure.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/installation-toiture-Beloeil/",
-      icon: Star,
-      imageUrl: "/lovable-uploads/997fad90-d1e7-4451-aeef-f739d9deb6cc.png"
-    }
-  ];
 
   return (
     <>
@@ -122,7 +84,8 @@ const InstallationToiture = () => {
           reverseLayout
         />
 
-        <ServiceCardsSection services={services} />
+        {/* We're using the updated ServiceCardsSection component that doesn't require the services prop */}
+        <ServiceCardsSection />
 
         <CallToActionBanner
           text="Faites réparer ou installer votre toiture par des pros – Appelez-nous maintenant !"
