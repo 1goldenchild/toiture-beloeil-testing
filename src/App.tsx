@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import EntretienToiture from "./pages/EntretienToiture";
 import InspectionToiture from "./pages/InspectionToiture";
+import InstallationToiture from "./pages/InstallationToiture";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/services-de-couvreur/entretien-toiture-Beloeil/" element={<EntretienToiture />} />
           <Route path="/services-de-couvreur/inspection-toiture-Beloeil/" element={<InspectionToiture />} />
+          <Route path="/services-de-couvreur/installation-toiture-Beloeil/" element={<InstallationToiture />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
