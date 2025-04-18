@@ -25,7 +25,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon: Ico
         <CardHeader className="pb-2">
           <div className="flex items-center gap-2 mb-2 text-roofing-primary">
             <Icon size={24} />
-            <CardTitle className="text-lg font-semibold" tag="h4">{title}</CardTitle>
+            <CardTitle className="text-lg font-semibold">{title}</CardTitle>
           </div>
         </CardHeader>
         <CardContent>
