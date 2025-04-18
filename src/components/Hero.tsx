@@ -11,20 +11,14 @@ const Hero = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        position: 'relative',
-        zIndex: 0,
       }}
     >
-      {/* Semi-transparent overlay */}
+      {/* Dark overlay */}
       <div 
-        className="absolute inset-0"
-        style={{ 
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
-          zIndex: -1 
-        }}
+        className="absolute inset-0 bg-black bg-opacity-50"
       ></div>
       
-      <div className="container mx-auto z-10 px-4">
+      <div className="container mx-auto relative z-10 px-4">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-shadow-lg">
             Toiture à Beloeil – Faites confiance à nos experts pour votre toit
