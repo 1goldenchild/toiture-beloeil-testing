@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,6 +12,7 @@ import InspectionToiture from "./pages/InspectionToiture";
 import InstallationToiture from "./pages/InstallationToiture";
 import RemplacementToiture from "./pages/RemplacementToiture";
 import ReparationToiture from "./pages/ReparationToiture";
+import Services from "./pages/Services";
 
 const queryClient = new QueryClient();
 
