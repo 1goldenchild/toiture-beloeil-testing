@@ -1,3 +1,4 @@
+
 User-agent: Googlebot
 Allow: /
 
@@ -12,3 +13,10 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Allow Google to index Google Maps content
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap
+Sitemap: https://toiturebeloeil.ca/sitemap.xml
