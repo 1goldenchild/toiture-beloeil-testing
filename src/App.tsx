@@ -18,7 +18,6 @@ import ConditionsUtilisation from "./pages/ConditionsUtilisation";
 import PolitiqueConfidentialite from "./pages/PolitiqueConfidentialite";
 import Header from "./components/header/Header"; // Updated import path
 import Footer from "./components/Footer";
-import Breadcrumbs from "./components/Breadcrumbs";
 
 const queryClient = new QueryClient();
 
@@ -31,7 +30,6 @@ const App = () => (
         <div className="min-h-screen flex flex-col">
           <Header />
           <div className="flex-grow pt-24">
-            <Breadcrumbs />
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/services-de-couvreur/" element={<Services />} />
@@ -54,3 +52,4 @@ const App = () => (
 );
 
 export default App;
+
