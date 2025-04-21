@@ -33,9 +33,9 @@ const Contact = () => {
               "latitude": 45.4495898,
               "longitude": -73.210129
             },
-            "url": "https://toiturebeloeil.ca//",
+            "url": "https://toiturebeloeil.ca/",
             "telephone": "+1 450 600 2538",
-            "email": "support@toiturebeloeil.ca//",
+            "email": "support@toiturebeloeil.ca",
             "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
@@ -67,7 +67,7 @@ const Contact = () => {
               {
                 "@type": "ContactPoint",
                 "contactType": "customer service",
-                "email": "support@toiturebeloeil.ca//",
+                "email": "support@toiturebeloeil.ca",
                 "areaServed": "Beloeil",
                 "availableLanguage": ["French"]
               }

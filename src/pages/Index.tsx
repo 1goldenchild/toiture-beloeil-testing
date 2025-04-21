@@ -22,6 +22,68 @@ const Index = () => {
       <Helmet>
         <title>Toiture Beloeil - Couvreur Beloeil - +1 450 600 2538</title>
         <meta name="description" content="Toiture Beloeil – Votre couvreur expert en toiture à Beloeil, QC. Réparation, installation et entretien de toiture. Appelez-nous dès maintenant au +1 450 600 2538 !" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://toiturebeloeil.ca/",
+            "name": "Toiture Beloeil",
+            "description": "Toiture Beloeil – Votre couvreur expert en toiture à Beloeil, QC. Réparation, installation et entretien de toiture.",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://toiturebeloeil.ca/search?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          })}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Toiture Beloeil",
+            "image": "https://toiturebeloeil.ca/lovable-uploads/8e9c73e7-e681-4925-9f3a-7c4376a86bbc.png",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "861 Rue Radisson",
+              "addressLocality": "Beloeil",
+              "addressRegion": "Quebec",
+              "postalCode": "J3G 4V9",
+              "addressCountry": "Canada"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 45.4495898,
+              "longitude": -73.210129
+            },
+            "url": "https://toiturebeloeil.ca/",
+            "telephone": "+1 450 600 2538",
+            "email": "support@toiturebeloeil.ca",
+            "priceRange": "$$",
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "07:00",
+                "closes": "17:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:00",
+                "closes": "12:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "00:00",
+                "closes": "00:00"
+              }
+            ],
+            "sameAs": [
+              "https://facebook.com/toiturebeloeil"
+            ]
+          })}
+        </script>
       </Helmet>
 
       <main className="min-h-screen overflow-hidden">
@@ -35,7 +97,7 @@ const Index = () => {
               Nos services de toiture à Beloeil – Des solutions sur mesure pour votre toit
             </h2>
             <p className="text-lg text-center text-gray-700 max-w-4xl mx-auto mb-12">
-              Que vous cherchiez à <a href="https://toiturebeloeil.ca/services-de-couvreur/reparation-toiture-beloeil/" className="text-roofing-accent hover:underline">réparer un toit endommagé</a>, à <a href="https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-beloeil/" className="text-roofing-accent hover:underline">remplacer une toiture vieillissante</a> ou à faire <a href="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-beloeil/" className="text-roofing-accent hover:underline">inspecter votre couverture</a> avant l'hiver, chez Toiture Beloeil nous avons la solution qu'il vous faut. Nos services complets couvrent tous les aspects de l'entretien et de la rénovation de votre toit, avec une attention particulière portée à la qualité et à la durabilité. Découvrez comment notre équipe expérimentée peut vous aider à protéger votre investissement immobilier avec des solutions de toiture fiables et performantes.
+              Que vous cherchiez à <a href="https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-Beloeil/" className="text-roofing-accent hover:underline">réparer un toit endommagé</a>, à <a href="https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-Beloeil/" className="text-roofing-accent hover:underline">remplacer une toiture vieillissante</a> ou à faire <a href="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/" className="text-roofing-accent hover:underline">inspecter votre couverture</a> avant l'hiver, chez Toiture Beloeil nous avons la solution qu'il vous faut. Nos services complets couvrent tous les aspects de l'entretien et de la rénovation de votre toit, avec une attention particulière portée à la qualité et à la durabilité. Découvrez comment notre équipe expérimentée peut vous aider à protéger votre investissement immobilier avec des solutions de toiture fiables et performantes.
             </p>
           </div>
         </section>
@@ -54,35 +116,35 @@ const Index = () => {
                 title="Remplacement de toiture"
                 description="Remplacez votre ancienne toiture par une installation durable et moderne."
                 icon={Construction}
-                link="https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-beloeil/"
+                link="https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-Beloeil/"
                 imageUrl="/lovable-uploads/8e9c73e7-e681-4925-9f3a-7c4376a86bbc.png"
               />
               <ServiceCard 
                 title="Réparation de toiture"
                 description="Solutions rapides et efficaces pour tous types de dommages sur votre toit."
                 icon={Wrench}
-                link="https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-beloeil/"
+                link="https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-Beloeil/"
                 imageUrl="/lovable-uploads/1cb3a89d-d1e4-487d-8561-2c373d1fd34b.png"
               />
               <ServiceCard 
                 title="Entretien de toiture"
                 description="Prolongez la durée de vie de votre toiture avec un entretien régulier."
                 icon={MaintenanceTool}
-                link="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-beloeil/"
+                link="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-Beloeil/"
                 imageUrl="/lovable-uploads/88153479-99cf-4c17-a3e1-6a2f286b9c51.png"
               />
               <ServiceCard 
                 title="Inspection de toiture"
                 description="Diagnostic complet pour identifier les problèmes avant qu'ils ne s'aggravent."
                 icon={Search}
-                link="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-beloeil/"
+                link="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/"
                 imageUrl="/lovable-uploads/a9b2e5d7-2d6e-4df6-bc57-89fdff438045.png"
               />
               <ServiceCard 
                 title="Installation de toiture"
                 description="Installation professionnelle pour une toiture neuve qui résiste au temps."
                 icon={Hammer}
-                link="https://toiturebeloeil.ca/services-de-couvreur/installation-toiture-beloeil/"
+                link="https://toiturebeloeil.ca/services-de-couvreur/installation-toiture-Beloeil/"
                 imageUrl="/lovable-uploads/69230fa7-790c-4a3c-bd7a-047c501a387e.png"
               />
             </div>

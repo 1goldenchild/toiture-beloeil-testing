@@ -46,28 +46,28 @@ const RemplacementToiture = () => {
     {
       title: "Remplacement de toiture",
       description: "Remplacez votre toiture vieillissante par une installation neuve et durable adaptée à votre maison.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/remplacement-toiture-Beloeil/",
+      link: "https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-Beloeil/",
       icon: Construction,
       imageUrl: "/lovable-uploads/997fad90-d1e7-4451-aeef-f739d9deb6cc.png"
     },
     {
       title: "Réparation de toiture",
       description: "Solutions rapides et efficaces pour tous types de dommages sur votre toiture.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/réparation-toiture-Beloeil/",
+      link: "https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-Beloeil/",
       icon: Wrench,
       imageUrl: "/lovable-uploads/6422a796-7357-43f7-bc11-c6844664f8bf.png"
     },
     {
       title: "Entretien de toiture",
       description: "Services d'entretien régulier pour prolonger la durée de vie de votre toiture.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/entretien-toiture-Beloeil/",
+      link: "https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-Beloeil/",
       icon: Shield,
       imageUrl: "/lovable-uploads/9b0bb6a5-e524-4b35-a68e-fd963ee0deb9.png"
     },
     {
       title: "Inspection de toiture",
       description: "Évaluation professionnelle de l'état de votre toiture pour prévenir les problèmes.",
-      link: "https://toiturebeloeil.ca//services-de-couvreur/inspection-toiture-Beloeil/",
+      link: "https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/",
       icon: CheckCircle,
       imageUrl: "/lovable-uploads/88153479-99cf-4c17-a3e1-6a2f286b9c51.png"
     }
@@ -127,13 +127,13 @@ const RemplacementToiture = () => {
             <h3 className="text-2xl font-bold text-roofing-primary mb-6">Comparaison des types de toits à choisir pour un remplacement à Beloeil</h3>
             <div className="space-y-4 text-gray-700">
               <p>
-                Choisir le bon matériau pour votre nouvelle toiture est une décision importante qui influencera la durabilité, l'esthétique et la valeur de votre propriété à Beloeil. Chaque type de toiture présente des avantages spécifiques selon votre budget, le style architectural de votre maison et vos priorités environnementales.
+                Avant de faire votre choix final, n'hésitez pas à demander une <a href="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/">inspection de toiture</a> pour évaluer vos besoins spécifiques.
               </p>
               <p>
                 Les bardeaux d'asphalte restent le choix le plus courant pour leur excellent rapport qualité-prix, tandis que les toitures métalliques offrent une longévité exceptionnelle malgré un investissement initial plus élevé. Pour les toits plats, la membrane élastomère est inégalée en matière d'étanchéité.
               </p>
               <p>
-                Nos experts peuvent vous guider dans cette décision en tenant compte du climat particulier de Beloeil. Un bon choix de matériau peut faire toute la différence entre une toiture qui durera 15 ans et une qui protégera votre maison pendant plus de 50 ans. Avant de faire votre choix final, n'hésitez pas à demander une <a href="https://toiturebeloeil.ca//services-de-couvreur/inspection-de-toiture-beloeil/">inspection de toiture</a> pour évaluer vos besoins spécifiques.
+                Nos experts peuvent vous guider dans cette décision en tenant compte du climat particulier de Beloeil. Un bon choix de matériau peut faire toute la différence entre une toiture qui durera 15 ans et une qui protégera votre maison pendant plus de 50 ans. Avant de faire votre choix final, n'hésitez pas à demander une <a href="https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/">inspection de toiture</a> pour évaluer vos besoins spécifiques.
               </p>
             </div>
           </div>
@@ -150,7 +150,7 @@ const RemplacementToiture = () => {
                 Nos bardeaux d'asphalte premium sont spécialement conçus pour résister aux conditions climatiques québécoises extrêmes. Ils supportent le gel, la neige abondante, les pluies torrentielles et même les vents violents qui peuvent frapper notre région. Avec une durée de vie moyenne de 20 à 30 ans selon la qualité choisie, c'est un investissement judicieux pour votre propriété.
               </p>
               <p>
-                L'installation est relativement rapide, ce qui réduit les désagréments pendant les travaux. De plus, si un <a href="https://toiturebeloeil.ca//services-de-couvreur/entretien-de-toiture-beloeil/">entretien de toiture</a> régulier est effectué, vous pouvez prolonger sa durée de vie de plusieurs années. Nos équipes sont formées aux techniques d'installation les plus récentes pour garantir l'étanchéité parfaite de votre nouvelle toiture.
+                L'installation est relativement rapide, ce qui réduit les désagréments pendant les travaux. De plus, si un <a href="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-Beloeil/">entretien de toiture</a> régulier est effectué, vous pouvez prolonger sa durée de vie de plusieurs années. Nos équipes sont formées aux techniques d'installation les plus récentes pour garantir l'étanchéité parfaite de votre nouvelle toiture.
               </p>
             </div>
           </div>
@@ -173,10 +173,10 @@ const RemplacementToiture = () => {
                 Ces toitures résistent admirablement aux rigueurs de notre climat québécois: neige, grêle, vents violents et écarts de température extrêmes. Elles sont également plus légères que d'autres matériaux, ce qui réduit la charge sur la structure de votre maison.
               </p>
               <p>
-                Un autre avantage considérable est leur efficacité énergétique. En été, elles réfléchissent les rayons du soleil plutôt que de les absorber, réduisant ainsi vos coûts de climatisation. Si votre toiture actuelle présente des problèmes, nous pouvons effectuer une <a href="https://toiturebeloeil.ca//services-de-couvreur/reparation-de-toiture-beloeil/">réparation de toiture</a> temporaire avant de procéder au remplacement complet.
+                Un autre avantage considérable est leur efficacité énergétique. En été, elles réfléchissent les rayons du soleil plutôt que de les absorber, réduisant ainsi vos coûts de climatisation. Si votre toiture actuelle présente des problèmes, nous pouvons effectuer une <a href="https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-Beloeil/">réparation de toiture</a> temporaire avant de procéder au remplacement complet.
               </p>
               <p>
-                L'aspect moderne des toitures métalliques peut également augmenter significativement la valeur de revente de votre propriété. Nos experts peuvent vous proposer différentes options de finition et de couleur pour s'harmoniser parfaitement avec le style architectural de votre maison à Beloeil.
+                Chaque installation commence par une évaluation précise de vos besoins et une préparation minutieuse du chantier. Nos couvreurs certifiés suivent un processus rigoureux pour assurer l'étanchéité parfaite de votre toit et sa conformité aux normes de construction locales. Pour un résultat optimal, faites confiance à notre expertise en remplacement de membrane élastomère à Beloeil.
               </p>
             </div>
           </div>
@@ -193,7 +193,7 @@ const RemplacementToiture = () => {
                 Cette membrane bicouche offre une résistance exceptionnelle aux rayons UV, aux variations de température extrêmes et aux mouvements structurels du bâtiment. Sa flexibilité lui permet de s'adapter aux dilatations et contractions causées par les changements de température, un avantage crucial dans notre climat québécois.
               </p>
               <p>
-                L'installation d'une membrane élastomère requiert un savoir-faire spécifique pour garantir des joints parfaitement étanches. Nos techniciens certifiés maîtrisent les techniques d'application à la torche pour une adhérence optimale. Avec une durée de vie pouvant atteindre 25 à 30 ans et une résistance remarquable aux perforations, c'est un choix judicieux pour votre <a href="https://toiturebeloeil.ca//services-de-couvreur/installation-de-toiture-beloeil/">installation de toiture</a> plate.
+                L'installation d'une membrane élastomère requiert un savoir-faire spécifique pour garantir des joints parfaitement étanches. Nos techniciens certifiés maîtrisent les techniques d'application à la torche pour une adhérence optimale. Avec une durée de vie pouvant atteindre 25 à 30 ans et une résistance remarquable aux perforations, c'est un choix judicieux pour votre <a href="https://toiturebeloeil.ca/services-de-couvreur/installation-toiture-Beloeil/">installation de toiture</a> plate.
               </p>
               <p>
                 Nous recommandons également un système de drainage adéquat pour éviter l'accumulation d'eau, prolongeant ainsi la durée de vie de votre nouvelle toiture. Pour un résultat optimal, faites confiance à notre expertise en remplacement de membrane élastomère à Beloeil.
@@ -219,7 +219,7 @@ const RemplacementToiture = () => {
                 <li><strong>Service client exceptionnel</strong>: De la première consultation jusqu'au suivi post-installation, nous restons à votre écoute.</li>
               </ul>
               <p>
-                Notre réputation d'excellence dans la région est le fruit d'années de travail minutieux et d'un engagement constant envers la satisfaction de nos clients. Pour un <a href="https://toiturebeloeil.ca//services-de-couvreur/remplacement-de-toiture-beloeil/">remplacement de toiture</a> durable et sans tracas à Beloeil, faites confiance à notre expertise.
+                Notre réputation d'excellence dans la région est le fruit d'années de travail minutieux et d'un engagement constant envers la satisfaction de nos clients. Pour un <a href="https://toiturebeloeil.ca/services-de-couvreur/remplacement-toiture-Beloeil/">remplacement de toiture</a> durable et sans tracas à Beloeil, faites confiance à notre expertise.
               </p>
             </div>
           </div>

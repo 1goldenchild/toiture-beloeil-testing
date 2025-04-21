@@ -25,7 +25,7 @@ const EntretienToiture = () => {
                 "@type": "LocalBusiness",
                 "name": "Toiture Beloeil",
                 "telephone": "+1 450 600 2538",
-                "url": "https://toiturebeloeil.ca//",
+                "url": "https://toiturebeloeil.ca/",
                 "openingHoursSpecification": [
                   {
                     "@type": "OpeningHoursSpecification",
@@ -80,8 +80,8 @@ const EntretienToiture = () => {
         title="Pourquoi l'entretien de toiture est-il essentiel ?"
         paragraphs={[
           "L'entretien régulier de votre toiture n'est pas un luxe, c'est une nécessité! Au Québec, nos toits subissent des conditions météorologiques extrêmes - neige abondante, pluies torrentielles, cycles de gel et dégel, et soleil intense. Sans entretien, ces éléments accélèrent considérablement la détérioration de votre couverture.",
-          "Un entretien préventif vous permet d'économiser beaucoup d'argent à long terme. Pensez-y: réparer une petite fuite détectée tôt coûte bien moins cher que de remplacer un plafond endommagé par l'eau! En <a href=\"https://toiturebeloeil.ca//services-de-couvreur/inspection-de-toiture-beloeil/\">faisant inspecter votre toiture</a> régulièrement, vous identifiez les problèmes potentiels avant qu'ils ne deviennent catastrophiques.",
-          "L'accumulation de mousse, d'algues et de débris peut aussi retenir l'humidité et endommager progressivement vos bardeaux. Un nettoyage professionnel élimine ces menaces et prolonge sensiblement la durée de vie de votre toit. N'attendez pas que des dommages visibles apparaissent - à ce moment-là, il est souvent trop tard et les <a href=\"https://toiturebeloeil.ca//services-de-couvreur/reparation-de-toiture-beloeil/\">réparations nécessaires</a> seront beaucoup plus importantes.",
+          "Un entretien préventif vous permet d'économiser beaucoup d'argent à long terme. Pensez-y: réparer une petite fuite détectée tôt coûte bien moins cher que de remplacer un plafond endommagé par l'eau! En <a href=\"https://toiturebeloeil.ca/services-de-couvreur/inspection-toiture-Beloeil/\">faisant inspecter votre toiture</a> régulièrement, vous identifiez les problèmes potentiels avant qu'ils ne deviennent catastrophiques.",
+          "L'accumulation de mousse, d'algues et de débris peut aussi retenir l'humidité et endommager progressivement vos bardeaux. Un nettoyage professionnel élimine ces menaces et prolonge sensiblement la durée de vie de votre toit. N'attendez pas que des dommages visibles apparaissent - à ce moment-là, il est souvent trop tard et les <a href=\"https://toiturebeloeil.ca/services-de-couvreur/réparation-toiture-Beloeil/\">réparations nécessaires</a> seront beaucoup plus importantes.",
           "Chez Toiture Beloeil, nous recommandons un entretien au moins une fois par an, idéalement au printemps après l'hiver rude ou à l'automne avant les premières neiges. Votre toit est votre première ligne de défense - prenez-en soin!"
         ]}
       />
@@ -89,7 +89,7 @@ const EntretienToiture = () => {
       <ServiceInfoSection
         title="Services d'entretien de toiture professionnels à Beloeil – Protégez votre investissement"
         paragraphs={[
-          "Chez <a href=\"https://toiturebeloeil.ca//\">Toiture Beloeil</a>, nous offrons des services d'entretien complets adaptés aux besoins spécifiques de votre maison. Notre équipe expérimentée utilise des techniques éprouvées et un équipement de pointe pour garantir des résultats durables.",
+          "Chez <a href=\"https://toiturebeloeil.ca/\">Toiture Beloeil</a>, nous offrons des services d'entretien complets adaptés aux besoins spécifiques de votre maison. Notre équipe expérimentée utilise des techniques éprouvées et un équipement de pointe pour garantir des résultats durables.",
           "Nous comprenons que chaque toit est unique, c'est pourquoi nous commençons toujours par une évaluation approfondie de l'état actuel de votre toiture. Cela nous permet de créer un plan d'entretien personnalisé qui cible les zones problématiques et prévient les dégâts futurs.",
           "Notre approche méthodique et attentive assure que rien n'est négligé. Du nettoyage des gouttières à la vérification des solins, nous prenons soin de chaque détail pour que votre toiture reste en parfait état pendant de nombreuses années.",
           "N'attendez pas que les petits problèmes deviennent des urgences coûteuses! Un entretien régulier avec Toiture Beloeil est l'investissement le plus intelligent que vous puissiez faire pour protéger votre maison et éviter les mauvaises surprises."
@@ -117,7 +117,7 @@ const EntretienToiture = () => {
           <li><span class="font-semibold">Intervention rapide :</span> Nous comprenons l'urgence que peuvent représenter certains problèmes de toiture et nous nous engageons à intervenir promptement.</li>
           <li><span class="font-semibold">Garantie sur nos travaux :</span> Nous avons tellement confiance en notre travail que nous l'accompagnons d'une garantie solide pour votre tranquillité d'esprit.</li>
         </ul>
-        En choisissant nos services d'<a href="https://toiturebeloeil.ca//services-de-couvreur/entretien-de-toiture-beloeil/">entretien de toiture</a>, vous investissez dans la longévité et la performance de votre maison. Contactez-nous aujourd'hui pour découvrir comment nous pouvons vous aider à protéger votre investissement immobilier.`}
+        En choisissant nos services d'<a href="https://toiturebeloeil.ca/services-de-couvreur/entretien-toiture-Beloeil/">entretien de toiture</a>, vous investissez dans la longévité et la performance de votre maison. Contactez-nous aujourd'hui pour découvrir comment nous pouvons vous aider à protéger votre investissement immobilier.`}
         imageUrl="/lovable-uploads/88153479-99cf-4c17-a3e1-6a2f286b9c51.png"
       />
       
