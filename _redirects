@@ -1,0 +1,8 @@
+# Redirect with accent correction
+/services-de-couvreur/reparation-toiture-beloeil/   /services-de-couvreur/réparation-toiture-beloeil/   301
+
+# Fix double slash in URL (1)
+/services-de-couvreur/inspection-de-toiture-beloeil/   /services-de-couvreur/inspection-de-toiture-beloeil/   301
+
+# Fix double slash in URL (2)
+/services-de-couvreur/reparation-de-toiture-beloeil/   /services-de-couvreur/reparation-de-toiture-beloeil/   301
